@@ -1,0 +1,20 @@
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 180px;
+  background-color: white;
+}
+
+.search-bar-input {
+  width: 50vw;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid #676579;
+  border-radius: 8px;
+  padding: 0 12px 0 12px;
+}
